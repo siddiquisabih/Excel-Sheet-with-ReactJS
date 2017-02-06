@@ -1,0 +1,54 @@
+.a
+{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+html {
+  background: white;
+  font: 16px Arial;
+}
+
+input {
+  font: 16px Arial;
+}
+
+
+td {
+  border-top: 1px solid black;
+  cursor: cell;
+  padding: 5px;
+}
+
+th {
+  cursor: pointer;
+  padding: 5px;
+}
+
+table {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.toolbar {
+  margin-left: 20px;
+}
+
+.toolbar a, .toolbar button { /* thanks css3buttongenerator.com! */
+  background: chocolate;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: 0;
+  margin-right: 5px;
+}
+
+.toolbar a:hover, .toolbar button:hover {
+  background: chocolate;
+  border: 2px solid #CD0000;
+  color: #CD0000;
+  text-decoration: none;
+}
